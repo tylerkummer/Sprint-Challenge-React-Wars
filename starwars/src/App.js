@@ -1,5 +1,5 @@
 import React from 'react';
-import StarWarsGrind from "./components/StarWarsGrid"
+import StarWarsGrid from "./components/StarWarsGrid"
 import './App.css';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <StarWarsGrind/>
+      <StarWarsGrid/>
     </div>
   );
 }

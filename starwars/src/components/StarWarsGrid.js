@@ -16,13 +16,14 @@ export default function StarWarsGrid() {
             })
     }, []);
 
-    console.log(people.name)
+    //console.log(people.name)
 
     return (
         <div>
-            {people.map(person =>{
+            {people.map((person, index) =>{
                 return(
                     <StarWarsCard
+                        key={index}
                         name={person.name}
                         gender={person.gender}
                         birth_year={person.birth_year}
